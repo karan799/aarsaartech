@@ -1,0 +1,165 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.view-all-button,
+.add-customer-button {
+  background-color: #0caa0c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+  .search-bar {
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .customer-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customer-list th, .customer-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .input-group {
+    display: flex;
+  }
+  
+  .input-group input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .customer-list th {
+    background-color: #15cf24;
+    font-weight: bold;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+  }
+  
+  .customer-list tr:nth-child(even) {
+    background-color: #b5b5b5;
+  }
+  
+  .customer-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .no-customers {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: #5109c5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .confirm-button, .cancel-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .edit-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .view-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .delete-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Style the icons with specific colors */
+  .edit-icon i {
+    color: green;
+  }
+  
+  .view-icon i {
+    color: blue;
+  }
+  
+  .delete-icon i {
+    color: red;
+  }
+  
+  
+  .confirm-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+  }
+  
