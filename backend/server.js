@@ -37,8 +37,7 @@ const UserSchema = new mongoose.Schema({
 const User = mongoose.model('Customer', UserSchema);
 
 app.get('/', (req, res) => {
-  app.use(express.static(path.join(__dirname, 'frontend','dist')));
-  res.sendFile(path.join(__dirname, 'frontend','dist','index.html'));
+  res.send('jai shree ram')
 });
 
 
